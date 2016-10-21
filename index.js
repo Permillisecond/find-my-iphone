@@ -12,7 +12,7 @@ var findmyphone = {
 			return callback("Please define apple_id / password");
 		}
 
-		var newLogin = !findmyphone.hasOwnProperty("jar");
+		var newLogin = true;
 		if (newLogin) {
 			findmyphone.jar = request.jar();
 		}
