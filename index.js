@@ -184,7 +184,7 @@ var findmyphone = {
 		if (device.location) {
 
 			var googleUrl = "http://maps.googleapis.com/maps/api/distancematrix/json" +
-				"?origins=%d,%d&destinations=%d,%d&mode=driving&sensor=false";
+				"?origins=%d,%d&destinations=%d,%d&mode=walking&sensor=false";
 
 			googleUrl =
 				util.format(googleUrl, myLatitude, myLongitude,
